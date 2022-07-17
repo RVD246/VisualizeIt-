@@ -26,7 +26,7 @@ public class RingCubeSpawner : MonoBehaviour
     {
         for (int i = 0; i < 512; i++)
         {
-            if(sampleCubes!=null)
+            if (sampleCubes != null)
             {
                 sampleCubes[i].transform.localScale = new Vector3(10, (SpectrumData.samples[i] * maxScale) + 2, 10);
             }
